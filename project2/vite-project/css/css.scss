@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-size: 18px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+    #body{
+        margin: 2rem;
+        border-radius: 5px;
+        border: 3.5px solid rgb(255, 211, 218);
+        display: flex;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        background-color: white;
+        // height: 500px;
+        // width: 30vw;
+        .sectionLeft{
+            margin: 15px;
+            
+            #Title{
+                text-align: center;
+                font-size: 1.75rem;
+                margin:1rem 0rem 1rem 0rem;
+                color: rgb(219, 129, 27);
+            }
+            #app{
+                
+                .myForm{
+                    height: 200px;
+                    form{
+                        text-align: center;
+                        div{
+                            text-align: center;
+                            margin: 10px 0px;
+                            height: 30px;
+                            label{
+                                color: rgb(219, 129, 27);
+                            }
+                            input,select{
+                                width: 200px;
+                                height: 30px;
+                                border: 1px solid #aa7575 ;
+                                border-radius: 5px;
+                                color: rgb(175, 94, 18);
+                                outline: none;
+                            }
+                            input:hover,select:hover{
+                                border: 2px solid #f8bc6d ;
+                                                    }
+                        }
+                        button{
+                            margin-top: 5px;
+                            width: 250px;
+                            height: 30px;
+                            border-radius: 5px;
+                            border: 1px solid #ffa2a2 ;
+                            background-image: linear-gradient(to top, rgb(255, 200, 200), rgb(255, 217, 181));
+                            color: rgb(153, 85, 8);
+                        }
+                        button:hover{
+                            background-image: linear-gradient(to top, rgb(255, 172, 172), rgb(255, 203, 155));
+                        }
+                    }
+                }
+                .myList{
+                    width: 300px;
+                    ul{
+                        
+                        li{
+                            list-style: none;
+                            color: rgb(153, 85, 8);
+                            border: 1px solid #ffc862 ;
+                            border-radius: 5px;
+                            margin: 3px 0px;
+                            padding: 4px;
+                            background-color: #fffaf0 ;
+                        }
+                        li:hover{
+                            background-color: #ffebc4 ;
+                        }
+                    }
+                }
+    
+            }
+        }
+        .hrstyle{
+            // border: 0;
+            // height: 1px;
+            width: 1px;
+            background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(255, 146, 131, 0.75), rgba(0,0,0,0));
+        }
+        .sectionRight{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            img{
+               margin: 10px 0px; 
+              height: 280px;
+            }
+        }
+
+    }
+    @media screen and (max-width:727px){
+        #body{
+            flex-direction: column;
+            
+
+            .hrstyle{
+                height: 1px;
+                width: 100%;
+                margin: 10px 0px;
+                background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(255, 146, 131, 0.75), rgba(0,0,0,0));
+            }
+
+        }
+    }
+
+}

@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f3f3f3;
+}
+
+body #body {
+  margin: 2rem;
+  border-radius: 5px;
+  border: 3.5px solid #ffd3da;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+body #body .sectionLeft {
+  margin: 15px;
+}
+
+body #body .sectionLeft #Title {
+  text-align: center;
+  font-size: 1.75rem;
+  margin: 1rem 0rem 1rem 0rem;
+  color: #db811b;
+}
+
+body #body .sectionLeft #app .myForm {
+  height: 200px;
+}
+
+body #body .sectionLeft #app .myForm form {
+  text-align: center;
+}
+
+body #body .sectionLeft #app .myForm form div {
+  text-align: center;
+  margin: 10px 0px;
+  height: 30px;
+}
+
+body #body .sectionLeft #app .myForm form div label {
+  color: #db811b;
+}
+
+body #body .sectionLeft #app .myForm form div input, body #body .sectionLeft #app .myForm form div select {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #aa7575;
+  border-radius: 5px;
+  color: #af5e12;
+  outline: none;
+}
+
+body #body .sectionLeft #app .myForm form div input:hover, body #body .sectionLeft #app .myForm form div select:hover {
+  border: 2px solid #f8bc6d;
+}
+
+body #body .sectionLeft #app .myForm form button {
+  margin-top: 5px;
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ffa2a2;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffc8c8), to(#ffd9b5));
+  background-image: linear-gradient(to top, #ffc8c8, #ffd9b5);
+  color: #995508;
+}
+
+body #body .sectionLeft #app .myForm form button:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffacac), to(#ffcb9b));
+  background-image: linear-gradient(to top, #ffacac, #ffcb9b);
+}
+
+body #body .sectionLeft #app .myList {
+  width: 300px;
+}
+
+body #body .sectionLeft #app .myList ul li {
+  list-style: none;
+  color: #995508;
+  border: 1px solid #ffc862;
+  border-radius: 5px;
+  margin: 3px 0px;
+  padding: 4px;
+  background-color: #fffaf0;
+}
+
+body #body .sectionLeft #app .myList ul li:hover {
+  background-color: #ffebc4;
+}
+
+body #body .hrstyle {
+  width: 1px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), color-stop(rgba(255, 146, 131, 0.75)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(255, 146, 131, 0.75), rgba(0, 0, 0, 0));
+}
+
+body #body .sectionRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #body .sectionRight img {
+  margin: 10px 0px;
+  height: 280px;
+}
+
+@media screen and (max-width: 727px) {
+  body #body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #body .hrstyle {
+    height: 1px;
+    width: 100%;
+    margin: 10px 0px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(255, 146, 131, 0.75)), to(rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 146, 131, 0.75), rgba(0, 0, 0, 0));
+  }
+}
+/*# sourceMappingURL=css.css.map */
